@@ -1,0 +1,47 @@
+<html>
+   <head>
+   
+      <script>
+	     console.log("Welcome ya console");
+		 
+		 
+	 
+		 var items = ["121","123","asdd","dasd"];
+		  for(var i=0; i<items.length; i++)
+		    {
+			 console.log(items[i]);
+			}
+			class Rectangle
+			{
+			  constructor(height, width)
+			  {
+			   this.height = height;
+			   this.width= width;
+			  }
+			  get Area()
+			  {
+			     return this.calArea();
+			  }
+			  calArea()
+			  {
+			    return this.height * this.width;
+			  }
+			  get perimeter()
+			  {
+			   return this.calPerimeter();
+			  }
+			  calPerimeter()
+			  {
+			   return 2 *( this.height + this.width);
+			  }
+			}
+		      const sq = new Rectangle(102, 145);
+			  console.log(sq.Area);
+			  console.log(sq.perimeter);
+ 
+	  </script>
+   </head>
+      <body>
+	   </body>
+
+</html>
